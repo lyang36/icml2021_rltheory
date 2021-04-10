@@ -1,0 +1,1144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="favicon.ico?">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Theoretical Foundations of Reinforcement Learning Workshop, co-located with ICML 2020">
+
+
+
+
+    <title> Theoretical Foundations of Reinforcement Learning Workshop </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  
+</head>
+
+<body id="page-top" class="index">
+<style>
+    /*********************************
+     The list of publication items
+     *********************************/
+/* The list of items */
+.abslist { }
+
+/* The item */
+.abslist li { }
+
+/* You can define custom styles for plstyle field here. */
+
+
+/*************************************
+ The box that contain BibTeX code
+ *************************************/
+div.noshow { display: none; }
+div.abstract{
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:1.2em;
+	margin-bottom:1em;
+	border:1px solid silver;
+	padding: 0em 1em;
+	background: #ffffee;
+
+}
+
+</style>
+<script type="text/javascript">
+    function toggleAbstract(articleid) {
+        var abs = document.getElementById('abs_'+articleid);
+        if (abs) {
+            if(abs.className.indexOf('abstract') != -1) {
+                abs.className.indexOf('noshow') == -1?abs.className = 'abstract noshow':abs.className = 'abstract';
+            }
+        } else {
+            return;
+        }
+    }
+</script>
+
+<!--
+div.bibtex {
+  margin-right: 0%;
+  margin-top: 1.2em;
+  margin-bottom: 1em;
+  border: 1px solid silver;
+  padding: 0em 1em;
+  background: #ffffee;
+}
+div.bibtex pre { font-size: 75%; text-align: left; overflow: auto;  width: 100%; padding: 0em 0em;}</style>
+<script type="text/javascript">
+    <--
+    // Toggle Display of BibTeX
+    function toggleBibtex(articleid) {
+        var bib = document.getElementById('bib_'+articleid);
+        if (bib) {
+            if(bib.className.indexOf('bibtex') != -1) {
+                bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
+            }
+        } else {
+            return;
+        }
+    }
+
+    </scrip-->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div> 
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-middle">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                     <li>
+                        <a class="page-scroll" href="#shutdownstem">#ShutDownSTEM</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#introduction">Introduction</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#program">Schedule</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#keynote">Keynote Speakers</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#papers">Contributed Papers</a>
+                    </li>
+                    <!--li>
+                        <a class="page-scroll" href="#call">CFP</a>
+                    </li-->
+                    <li>
+                        <a class="page-scroll" href="#Program Committee">Program Committee</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#dates">Important Dates</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#organization">Organizers</a>
+                    </li>
+        
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+
+    <header >
+        <style>
+        header {background-image:url(img/vienna.jpg); 
+         filter: brightness(80%); color:#fff}  
+        </style>
+        <div class="container">
+            <div class="intro-text">
+            <div class="intro-heading"> Theoretical Foundations of Reinforcement Learning </br></div>
+                            <div class="intro-lead-in"> @ <a href="https://icml.cc/Conferences/2020" target=_blank>ICML 2020</a></br>July 17, 2020</div>
+                <!--a href="#call" target=_blank class="page-scroll btn btn-xl">Submit a Paper</a-->
+            </div>
+        </div>
+    </header>
+
+    <!-- #ShutDowmSTEM Section -->
+    <section id="shutdownstem">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">#ShutDownSTEM</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+            <div class="row text-justify">
+                <div class="col-md-12">
+                    <p class="large text-muted">
+                       
+In solidarity with <a href="http://www.shutdownstem.com/"> #ShutDownSTEM </a>, the organizing committee of the ICML 2020 Workshop on the Theoretical Foundations of Reinforcement Learning has moved the paper submission deadline to June 13, midnight UCT to encourage all submitting authors to participate in the strike. We grieve the deaths of George Floyd, Breonna Taylor, Ahmaud Arbery, David McAtee, and the thousands of Black people to police brutality, which is but a small part of systemic inequality. <b>Black lives matter</b> -- a statement whose very necessity betrays the tragedy - and the urgency - of our present conditions. 
+                     </p>
+ 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Introduction</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+            <div class="row text-justify">
+                <div class="col-md-12">
+                    <p class="large text-muted">
+                        In many settings such as education, healthcare, drug design, robotics, transportation, and achieving better-than-human performance in strategic games, it is important to make decisions sequentially. This poses two interconnected algorithmic and statistical challenges: effectively exploring to learn information about the underlying dynamics and effectively planning using this information. Reinforcement Learning (RL) is the main paradigm tackling both of these challenges simultaneously which is essential in the aforementioned applications. Over the last years, reinforcement learning has seen enormous progress both in solidifying our understanding on its theoretical underpinnings and in applying these methods in practice. 
+                     </p>
+
+              <p class ="large text-muted"> 
+                        This workshop aims to highlight recent theoretical contributions, with an emphasis on addressing significant challenges on the road ahead. Such theoretical understanding is important in order to design algorithms that have robust and compelling performance in real-world applications. As part of the ICML 2020 conference, this workshop will be held virtually. It will feature keynote talks from six reinforcement learning experts tackling different significant facets of RL. It will also offer the opportunity for contributed material (see below the call for papers and our outstanding program committee). The authors of each accepted paper will prerecord a 10-minute presentation and will also appear in a poster session. Finally, the workshop will have a panel discussing important challenges in the road ahead.                         
+                    </p>
+ 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Section -->
+    <section id="program" class="bg-mid-gray">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Schedule</h2>
+                    <h3 class="section-subheading text-muted">
+                      <!-- 6:30 am - 4:45 pm PDT <br>
+                      June 17, 2020<br> -->
+                <tr>
+                     <td>6:30 am - 7:15 am PDT </td>
+                     <td><strong>Exploration, Policy Gradient Methods, and the Deadly Triad  </strong> - Sham Kakade <em>(Invited Talk)</em> 
+                       </td>
+                 </tr>
+                 <br>
+                 <tr>
+                     <td>7:20 am - 8:05 am PDT </td>
+                     <td><strong>A Unifying View of Optimism in Episodic Reinforcement Learning  </strong> - Gergely Neu <em>(Invited Talk)</em> 
+                       </td>
+                 </tr>
+                 <br>
+                 <tr>
+                     <td>8:10 am - 9:25 am PDT </td>
+                     <td><strong>Early Poster Session</strong></em>  
+                       </td>
+                 </tr>
+                 <br>
+                   <tr>
+                     <td>9:30 am - 10:25 am PDT </td>
+                     <td><strong>Speaker Panel</strong></em> 
+                       </td>
+                 </tr> 
+                 <br>
+                   <tr>
+                     <td>10:30 am - 11:25 am PDT </td>
+                     <td><strong>An Off-policy Policy Gradient Theorem: A Tale About Weightings</strong> - Martha White</em> (Invited Talk)
+                       </td>
+                 </tr>
+                 <br>
+                   <tr>
+                     <td>11:20 am - 12:50 pm PDT </td>
+                     <td><strong>Short contributed talks</strong> - Kwang-Sung Jun, Sean Sinclair, Omar Darwiche Domingues, Edgar Minasyan, Tiancheng Yu, Kush Bhatia</em>
+                       </td>
+                 </tr>
+                 <br>
+                 <tr>
+                     <td>1:00 pm - 2:15 pm PDT </td>
+                     <td><strong>Late Poster Session</strong></em>  
+                       </td>
+                 </tr><br>
+                   <tr>
+                     <td>2:20 pm - 3:05 pm PDT </td>
+                     <td><strong>Representation learning and exploration in reinforcement learning</strong> - Akshay Krishnamurthy</em> (Invited Talk)
+                       </td>
+                 </tr><br>
+                   <tr>
+                     <td>3:10 pm - 3:55 pm PDT </td>
+                     <td><strong>Learning to price under the Bass model for dynamic demand</strong> - Shipra Agrawal</em> (Invited Talk)
+                       </td>
+                 </tr><br>
+                   <tr>
+                     <td>4:00 pm - 4:45 pm PDT </td>
+                     <td><strong>Efficient Planning in Large MDPs with Weak Linear Function Approximation</strong> - Csaba Szepesvari</em> (Invited Talk)
+                       </td>
+                 </tr>
+
+                    </h3>
+                </div>
+            </div>
+      
+            <!--
+            <div id="schedule">
+                <div class = "container w">
+                    <h3>Afternoon Session - June 14, 14:00-18:00</h3> <br>
+                    <div class = "row centered">
+                    <table class = "table table-striped" border="2" cellpadding="2" cellspacing="2">                         <tbody>
+                    <tr>
+                     <td>14:00 - 14:05 </td>
+                     <td>Opening Remarks </td>
+              
+                 </tr>
+                 <tr>
+                     <td>14:05 - 14:30 </td>
+                     <td><strong>Efficient Reinforcement Learning When Data is Costly </strong> - Emma Brunskill <em>(Invited Talk)</em>
+                     	<br> <a href="https://slideslive.com/38916912/efficient-reenforcement-learning-when-data-is-costly-invited-talk">[video]</a>
+						<br>
+                                       	<a href="javascript:toggleAbstract('brunskill_bio')">[speaker bio]</a>
+								<div id="abs_brunskill_bio" class="abstract noshow">
+								<p class="text-left">
+								Emma Brunskill
+ is an assistant professor in the Computer Science Department at Stanford University where she leads the AI for Human Impact group. She is the recipient of a multiple early faculty career awards (National Science Foundation, Office of Naval Research, Microsoft
+ Research) and her group has received several best research paper nominations (CHI, EDMx2) and awards (UAI, RLDM).   
+								</p>
+								</div>
+                     </td>
+              
+                 </tr>
+                <tr>
+                     <td>14:30 - 15:00 </td>
+                     <td><strong>Doubly Robust Off-policy Evaluation with Shrinkage </strong> - Miro Dud&iacute;k <em>(Invited Talk)</em> 
+                     	<br> <a href="https://slideslive.com/38916913/doubly-robust-offpolicy-evaluation-with-shrinkage-invited-talk">[video]</a>
+                     	<br>
+                                       	<a href="javascript:toggleAbstract('dudik_doubly')">[talk abstract]</a>
+								<div id="abs_dudik_doubly" class="abstract noshow">
+								<p class="text-left">
+								Contextual bandits are a learning protocol that encompasses applications such as news recommendation, advertising, and mobile health, where an algorithm repeatedly observes some information about a user, makes a decision what content to present, and accrues a reward if the presented content is successful. In this talk, I will focus on the fundamental task of evaluating a new policy given historic data. I will describe the asymptotically optimal approach of doubly robust (DR) estimation, the reasons for its shortcomings in finite samples, and how to overcome these shortcomings by directly optimizing the bound on finite-sample error. Optimization yields a new family of estimators that, similarly to DR, leverage any direct model of rewards, but shrink importance weights to obtain a better bias-variance tradeoff than DR. Error bounds can also be used to select the best among multiple reward predictors. Somewhat surprisingly, reward predictors that work best with standard DR are not the same as those that work best with our modified DR. Our new estimator and model selection procedure perform extremely well across a wide variety of settings, so we expect they will enjoy broad practical use. <br><br> Based on joint work with Yi Su, Maria Dimakopoulou, and Akshay Krishnamurthy.   
+								</p>
+								</div>
+						<br>
+                                       	<a href="javascript:toggleAbstract('dudik_bio')">[speaker bio]</a>
+								<div id="abs_dudik_bio" class="abstract noshow">
+								<p class="text-left">
+								Miroslav Dudík is a principal researcher in machine learning at Microsoft Research, NYC, currently focusing on contextual bandits, reinforcement learning and algorithmic fairness. He received his PhD from Princeton in 2007. He is a co-creator of the MaxEnt package for modeling species distributions, which is used by biologists around the world to design national parks, model impacts of climate change, and discover new species.   
+								</p>
+								</div>
+								</td>
+                 </tr>
+                  <tr>
+                     <td>15:00 - 16:00 </td>
+                     <td>Poster Session Part 1 and Coffee Break</td>
+         
+                 </tr>
+                 <tr>
+                     <td>16:00 - 16:30 </td>
+                     <td><strong>Link between Causal Inference and Reinforcement Learning and Applications to Learning from Offline/Observational Data </strong> - Suchi Saria <em>(Invited Talk)</em>
+                     	<br> <a href="https://slideslive.com/38916915/link-between-causal-inference-and-reinforcement-learning-invited-talk">[video]</a>
+						<br>
+                                       	<a href="javascript:toggleAbstract('saria_bio')">[speaker bio]</a>
+								<div id="abs_saria_bio" class="abstract noshow">
+								<p class="text-left">
+Suchi Saria is the John C. Malone Assistant
+ Professor at Johns Hopkins University where she directs the Machine Learning and Healthcare Lab. Her work with the lab enables new classes of diagnostic and treatment planning tools for healthcare—tools that use statistical machine learning techniques to tease
+ out subtle information from “messy” observational datasets, and provide reliable inferences for individualizing care decisions.
+<br>
+
+Saria’s methodological work spans Bayesian and probabilistic
+ approaches for addressing challenges associated with inference and prediction in complex, real-world temporal systems, with a focus in reliable ML, methods for counterfactual reasoning, and Bayesian nonparametrics for tackling sample heterogeneity and time-series
+ data.  
+
+<br>
+
+Her work has received recognition in numerous forms including
+ best paper awards at machine learning, informatics, and medical venues, a Rambus Fellowship (2004-2010), an NSF Computing Innovation Fellowship (2011), selection by IEEE Intelligent Systems to Artificial Intelligence’s “10 to Watch” (2015), the DARPA Young
+ Faculty Award (2016), MIT Technology Review’s ‘35 Innovators under 35’ (2017), the Sloan Research Fellowship in CS (2018), the World Economic Forum Young Global Leader (2018), and the National Academies of Medicine (NAM) Emerging Leader in Health and Medicine
+ (2018). In 2017, her work was among four research contributions presented by Dr. France Córdova, Director of the National Science Foundation to Congress’ Commerce, Justice Science Appropriations Committee. Saria received her PhD from Stanford University working
+ with Prof. Daphne Koller.
+								</p>
+								</div>
+                     </td>
+                     
+                     
+                 </tr>
+                 <tr>
+                     <td>16:30 - 17:00 </td>
+                     <td><strong> Dynamic Pricing and Matching for Ride-Hailing </strong> - Dawn Woodard <em>(Invited Talk)</em>
+                     	<br> <a href="https://slideslive.com/38916916/dynamic-pricing-and-matching-in-ridehailing-invited-talk">[video]</a>
+                     	<br>
+                                   	<a href="javascript:toggleAbstract('woodard_dynamic')">[talk abstract]</a>
+							<div id="abs_woodard_dynamic" class="abstract noshow">
+							<p class="text-left">
+Ride-hailing platforms like Uber, Lyft, Didi Chuxing, and Ola have achieved explosive growth, in part by improving the efficiency of matching between riders and drivers, and by calibrating the balance of supply and demand through dynamic pricing. We survey methods for dynamic pricing and matching in ride-hailing, and show that these are critical for providing an experience with low waiting time for both riders and drivers.  We also discuss approaches used to predict key inputs into those algorithms: demand, supply, and travel time in the road network.  Then we link the two levers together by studying a pool-matching mechanism called dynamic waiting that varies rider waiting and walking before dispatch, which is inspired by a recent carpooling product Express Pool from Uber.  We show using data from Uber that by jointly optimizing dynamic pricing and dynamic waiting, price variability can be mitigated, while increasing capacity utilization, trip throughput, and welfare. We also highlight several key practical challenges and directions of future research from a practitioner's perspective.
+							</p>
+							</div>
+                     <br>
+                                   	<a href="javascript:toggleAbstract('woodard_bio')">[speaker bio]</a>
+							<div id="abs_woodard_bio" class="abstract noshow">
+							<p class="text-left">
+Dawn Woodard leads data science for Uber Maps, which is the mapping platform used in Uber’s rider and driver app and decision systems (such as pricing and dispatch). The team’s technologies include road map and points of interest definition, map search, route optimization, travel time prediction, and navigation. 
+<br>
+Dr. Woodard earned her PhD in statistics from Duke University, after which she was a faculty member in the School of Operations Research and Information Engineering at Cornell. There she developed forecasting methods for emergency vehicle decision support systems, in collaboration with several ambulance organizations. After receiving tenure at Cornell, she joined Microsoft Research for her sabbatical, where she created travel time prediction methods for use in Bing Maps. She then transitioned to Uber, to build and lead data science for the pricing and matching teams, eventually transitioning to her current role in Maps.
+							</p>
+							</div>                     
+                     </td>
+                     
+                 </tr>
+
+                 <tr>
+                     <td>17:00 - 17:30 </td>
+                     <td>Panel Discussion with Emma Brunskill, Miro Dud&iacute;k, Suchi Saria and Dawn Woodard
+                     	<br> <a href="https://tiny.cc/rwsdm"><h5>Enter Questions for Panelists Here</h5></a>
+                     </td>
+                     
+                 </tr>
+                 
+
+                 <tr>
+                     <td>17:30 - 18:00 </td>
+                     <td>Poster Session - Part 2</td>
+                     
+                 </tr>
+                 
+             </tbody>
+                
+                     </table>
+                
+                 </div>
+                
+
+              <div class="col-lg-1 text-left">
+                &nbsp;
+              </div>
+              -->
+          </div> 
+        </div>
+    </section>
+
+    <!-- Keynote Section -->
+
+    <section id="keynote">
+         <div class="container">
+
+             <div class="row text-justify">
+                 <div class="col-lg-12 text-center">
+                     <h2 class="section-heading">Keynote Speakers</h2>  
+                </div>
+            </div>  
+
+
+            
+            <div class="row centered">
+                 <div class="col-sm-2">
+                     <div class="team-member">
+                         <img src="img/shipra_2.jpg" height="150" width="150" class="img-responsive img-circle">
+                         <a href="http://www.columbia.edu/~sa3305/"><h4>Shipra Agrawal</h4></a>
+                         <p class="text-muted">Assistant Professor<br/>Columbia University</p>
+                     </div>
+                 </div>
+
+                
+                 <div class="col-sm-2">
+                     <div class="team-member">
+                         <img src="img/sham_2.jpg" height="150" width="150" class="img-responsive img-circle">
+                         <a href="https://homes.cs.washington.edu/~sham/"><h4>Sham Kakade</h4></a>
+                         <p class="text-muted">Professor<br/>University of Washington</p>
+                     </div>
+                 </div>
+
+                 <div class="col-sm-2">
+                     <div class="team-member">
+                         <img src="img/akshay_2.jpg" height="150" width="150" class="img-responsive img-circle">
+                         <a href="https://people.cs.umass.edu/~akshay/"><h4>Akshay Krishnamurthy</h4></a>
+                         <p class="text-muted">Principal Researcher<br/>Microsoft Research NYC</p>
+                     </div>
+                 </div>
+            
+            
+            
+                 <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="img/gergo.jpg" height="150" width="150" class="img-responsive img-circle">
+                        <a href="http://cs.bme.hu/~gergo/"><h4>Gergely Neu</h4></a>
+                        <p class="text-muted">Research Assistant Professor<br/>Universitat Pompeu Fabra</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                     <div class="team-member">
+                         <img src="img/csaba_2.jpg" height="150" width="150" class="img-responsive img-circle">
+                         <a href="https://sites.ualberta.ca/~szepesva/"><h4>Csaba Szepesvari</h4></a>
+                         <p class="text-muted">Professor<br/>University of Alberta / DeepMind</p>
+                     </div>
+                 </div>
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="img/martha.jpg" height="150" width="150" class="img-responsive img-circle">
+                        <a href="https://webdocs.cs.ualberta.ca/~whitem/"><h4>Martha White</h4></a>
+                        <p class="text-muted">Assistant Professor<br/>University of Alberta </p>
+                    </div>
+                </div>
+             </div>
+          
+           
+
+        </div>
+    </section>
+
+
+    <!-- Papers -->
+    <section id="papers"  class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contributed Papers</h2>
+                </div>
+            </div>
+
+            <div class="row text-justify">
+                <div class="col-md-12">
+                    <p class="large text-muted">
+                        Early Poster Session
+                        <ul class = "abslist text-left">
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(10) Provable Hierarchical Imitation Learning via EM </strong>
+                                    <br><em>Zhiyu Zhang, Ioannis Paschalidis</em><br> 
+                                    <a href="https://www.youtube.com/watch?v=se75g_3sh5k&feature=youtu.be">[video]</a>
+                                </li>
+    
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(12) Multi-Task Reinforcement Learning as a Hidden-Parameter Block MDP </strong>
+                                    <br><em>Amy Zhang, Shagun Sodhani, Khimya Khetarpal, Joelle Pineau</em><br> 
+                                    <a href="https://arxiv.org/abs/2007.07206">[arXiv]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(14) Sample Complexity of Estimating the Policy Gradient for Nearly Deterministic Dynamical Systems </strong>
+                                    <br><em>Osbert Bastani</em><br> 
+                                    <a href="https://arxiv.org/abs/1901.08562">[arXiv]</a>
+                                  
+                                </li>
+    
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(15) If MaxEnt RL is the Answer, What is the Question?  </strong>
+                                    <br><em>Benjamin Eysenbach, Sergey Levine</em><br> 
+                                    <a href="https://arxiv.org/abs/1910.01913">[arXiv]</a>
+                                    <a href="https://www.youtube.com/watch?v=kTypKBKMEjY&feature=youtu.be">[video]</a>
+                                   
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(17) Online Markov Decision Processes with Max-Min Fairness </strong>
+                                    <br><em>Wang Chi Cheung</em><br> 
+                                   
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(24) Learning Zero-Sum Simultaneous-Move Markov Games Using Function Approximation and Correlated Equilibrium </strong>
+                                    <br><em>Qiaomin Xie, Yudong Chen, Zhaoran Wang, Zhuoran Yang</em><br> 
+                                    <a href="https://arxiv.org/abs/2002.07066">[arXiv]</a>
+                                    
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(28) Power-Constrained Bandits</strong>
+                                    <br><em>Jiayu Yao, Emma Brunskill, Weiwei Pan, Susan Murphy, Finale Doshi-Velez</em><br> 
+                                    <a href="https://arxiv.org/abs/2004.06230">[arXiv]</a>
+                                   
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(35) Adaptive Reward-Free Exploration</strong>
+                                    <br><em>Emilie Kaufmann, Pierre MENARD, Omar Darwiche Domingues, Anders Jonsson, Edouard Leurent, Michal Valko</em><br>
+                                    <a href="https://arxiv.org/abs/2006.06294">[arXiv]</a>
+                                    <a href="https://www.youtube.com/watch?v=BeuLl5_cTu0&feature=youtu.be">[video]</a> 
+                                   
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(38) Near-Optimal Reinforcement Learning with Self-Play</strong>
+                                    <br><em>Yu Bai, Chi Jin, Tiancheng Yu</em><br> 
+                                    <a href="https://arxiv.org/abs/2006.12007">[arXiv]</a>
+                                    <a href="https://www.youtube.com/watch?v=nMzcPli-GMg&feature=youtu.be">[video]</a>
+                                   
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(40) Reinforcement Learning with Feedback Graphs </strong>
+                                    <br><em>Christoph Dann, Yishay Mansour, Mehryar Mohri, Ayush Sekhari, Karthik Sridharan</em><br> 
+                                    <a href="https://arxiv.org/abs/2005.03789">[arXiv]</a>
+                                   
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(41) Learning Implicit Credit Assignment for Multi-Agent Actor-Critic</strong>
+                                    <br><em>Meng Zhou, Ziyu Liu, Pengwei Sui, Yixuan Li, Yuk Ying Chung</em><br> 
+                                    <a href="https://arxiv.org/pdf/2007.02529.pdf">[arXiv]</a>
+                                    <a href="https://drive.google.com/file/d/1X9uBesgwK40AovAAG7ayAbrqFij9wvBb/view?usp=sharing">[video]</a>
+                             
+                                </li>
+    
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(42) Refined Analysis of FPL for Adversarial Markov Decision Processes</strong>
+                                    <br><em>Yuanhao Wang, Kefan Dong</em><br> 
+                                    
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(47) A Kernel-Based Approach to Non-Stationary Reinforcement Learning in Metric Spaces</strong>
+                                    <br><em>Omar Darwiche Domingues, Pierre MENARD, Matteo Pirotta, Emilie Kaufmann, Michal Valko</em><br> 
+                                    <a href="https://arxiv.org/abs/2007.05078">[arXiv]</a>
+                                    <a href="https://www.youtube.com/watch?v=jJBpyPbyjQA&feature=youtu.be">[video]</a>
+                                    
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(50) Provably Efficient Exploration for Reinforcement Learning with Unsupervised Learning</strong>
+                                    <br><em>Fei Feng, Ruosong Wang, Wotao Yin, Simon Shaolei Du, lin Yang</em><br> 
+                                    <a href="https://arxiv.org/abs/2003.06898">[arXiv]</a>
+                                    <a href="https://www.youtube.com/watch?v=sQ7qf_uegSA&feature=youtu.be">[video]</a>
+                                   
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(52) Multi-Armed Bandits with Correlated Arms</strong>
+                                    <br><em>Samarth Gupta, Shreyas Chaudhari, Gauri Joshi, Osman Yagan</em><br> 
+                                    <a href="https://arxiv.org/abs/1911.03959">[arXiv]</a>
+                                    <a href="https://youtu.be/O3ULG0AOGb8 ">[video]</a>
+                                 
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(54) TDprop: Does Jacobi Preconditioning Help Temporal Difference Learning?</strong>
+                                    <br><em>Joshua Romoff, Peter Henderson, David Kanaa, Emmanuel Bengio, Ahmed Touati, Pierre-Luc Bacon, Joelle Pineau</em><br> 
+                                    <a href="https://arxiv.org/abs/2007.02786">[arXiv]</a>
+                                   
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(55) Sharp Analysis of Smoothed Bellman Error Embedding</strong>
+                                    <br><em>Ahmed Touati, Pascal Vincent</em><br> 
+                                    <a href="https://arxiv.org/pdf/2007.03749.pdf">[arXiv]</a>
+                                  
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(60) Simultaneously Learning Stochastic and Adversarial Episodic MDPs with Known Transition</strong>
+                                    <br><em>Tiancheng Jin, Haipeng Luo</em><br> 
+                                    <a href="https://arxiv.org/abs/2006.05606">[arXiv]</a>
+                                    
+                                </li>
+    
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(62) Adaptive Discretization for Model-Based Reinforcement Learning</strong>
+                                    <br><em>Sean R. Sinclair, Tianyu Wang, Gauri Jain, Sid Banerjee, Christina Yu</em><br> 
+                                    <a href="https://arxiv.org/abs/2007.00717">[arXiv]</a>
+                                
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(64) Exploration-Exploitation in Constrained MDPs</strong>
+                                    <br><em>Yonathan Efroni, Shie Mannor, Matteo Pirotta</em><br> 
+                                    <a href="https://arxiv.org/abs/2003.02189">[arXiv]</a>
+                                  
+                                </li>
+    
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(66) Learning the Linear Quadratic Regulator from Nonlinear Observations</strong>
+                                    <br><em>Zakaria Mhammedi, Dylan J Foster, Max Simchowitz, Dipendra Misra, Wen Sun, Akshay Krishnamurthy, Alexander Rakhlin, John Langford</em><br> 
+                                    
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(69) Finite-Sample Analysis of Stochastic Approximation Using Smooth Convex Envelopes </strong>
+                                    <br><em>Zaiwei Chen, Siva Theja Maguluri, Sanjay Shakkottai, Karthikeyan Shanmugam</em><br> 
+                                    <a href="https://arxiv.org/abs/2002.00874">[arXiv]</a>
+                                    <a href="https://www.youtube.com/watch?v=SN60BXlADlc&feature=youtu.be">[video]</a>
+                                   
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(81) Bypassing the Monster: A Faster and Simpler Optimal Algorithm for Contextual Bandits under Realizability</strong>
+                                    <br><em>David Simchi-Levi, Yunzong Xu</em><br> 
+                                    <a href="https://arxiv.org/abs/2003.12699">[arXiv]</a>
+                                   
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(83) Set-Invariant Constrained Reinforcement Learning with a Meta-Optimizer</strong>
+                                    <br><em>Chuangchuang Sun, Dong-Ki Kim, JONATHAN P HOW</em><br> 
+                                    <a href="https://arxiv.org/pdf/2006.11419.pdf">[arXiv]</a>
+                                    
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(85) Finding Equilibrium in Multi-Agent Games with Payoff Uncertainty</strong>
+                                    <br><em>Wenshuo Guo, Mihaela Curmei, Serena Wang, Benjamin Recht</em><br> 
+                                    <a href="https://arxiv.org/abs/2007.05647">[arXiv]</a>
+                                   
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(88) Reward-Free Exploration beyond Finite-Horizon</strong>
+                                    <br><em>Jean Tarbouriech, Matteo Pirotta, Michal Valko, Alessandro Lazaric</em><br> 
+                                    <a href="https://jtarbouriech.github.io/docs/rfe_beyond_fh.pdf">[paper]</a>
+                                    <a href="https://www.youtube.com/watch?v=rDLaWSNAnqs&feature=youtu.be">[video]</a>
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(96) Control as Hybrid Inference</strong>
+                                    <br><em>Alexander Tschantz, Beren Millidge, Anil K Seth, Christopher Buckley</em><br> 
+                                    <a href="https://arxiv.org/abs/2007.05838">[arXiv]</a>
+                                    
+                                </li>
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>(34) Distributional Robustness and Regularization in Reinforcement Learning</strong>
+                                    <br><em>Esther Derman, Shie Mannor</em><br> 
+                                    <a href="https://arxiv.org/abs/2003.02894v2">[arXiv]</a>
+                                    <a href="https://www.youtube.com/watch?v=Nb1rgyiTvg4&feature=youtu.be">[video]</a>
+                                   
+                                </li>
+    
+                        </ul></p>
+
+                        <p class="large text-muted">
+                        Late Poster Session 
+                        <ul class = "abslist text-left">
+                            
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(2) Minimax Confidence Interval for Off-Policy Evaluation and Policy Optimization </strong>
+                                <br><em>Nan Jiang, Jiawei Huang</em><br> 
+                                <a href="https://arxiv.org/abs/2002.02081">[arXiv]</a>
+                              
+                            </li>
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong> (4) An operator view of policy gradient methods  </strong>
+                                <br><em>Dibya Ghosh, Marlos C. Machado, Nicolas Le Roux</em><br> 
+                                <a href="https://arxiv.org/abs/2006.11266">[arXiv]</a>
+                                <a href="https://www.youtube.com/watch?v=Ol9GwgBalhA&feature=youtu.be">[video]</a>
+                               
+                            </li>
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong> (5) Crush Optimism with Pessimism: Structured Bandits Beyond Asymptotic Optimality </strong>
+                                <br><em>Kwang-Sung Jun, Chicheng Zhang</em><br> 
+                                <a href="https://arxiv.org/abs/2006.08754">[arXiv]</a>
+                                
+                            </li>
+
+                          
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(13) Doubly Robust Off-Policy Value and Gradient Estimation for Deterministic Policies</strong>
+                                <br><em>Nathan Kallus, Masatoshi Uehara</em><br> 
+                                
+                            </li>
+
+                            
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(16) Q-Learning Algorithm for Mean-Field Controls, with Convergence and Complexity Analysis </strong>
+                                <br><em>Haotian Gu, Xin Guo, Xiaoli Wei, Renyuan Xu</em><br> 
+                                <a href="https://arxiv.org/abs/2002.04131">[arXiv]</a>
+                                <a href="https://youtu.be/XkUNw5bLRwY">[video]</a>
+                                
+                            </li>
+
+                          
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(21) PAC Imitation and Model-based Batch Learning of Contextual MDPs </strong>
+                                <br><em>Yash Nair, Finale Doshi-Velez</em><br> 
+                                <a href="https://arxiv.org/abs/2006.06352">[arXiv]</a>
+                            </li>
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(23) A Decentralized Policy Gradient Approach toMulti-task Reinforcement Learning </strong>
+                                <br><em>Sihan Zeng, Aqeel Anwar, Thinh T. Doan, Arijit Raychowdhury, Justin Romberg</em><br> 
+                                <a href="https://arxiv.org/abs/2006.04338">[arXiv]</a>
+                            </li>
+
+                            
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(25) A Finite-Time Analysis of Two Time-Scale Actor-Critic Methods</strong>
+                                <br><em>Yue Wu, Weitong ZHANG, Pan Xu, Quanquan Gu</em><br> 
+                            </li>
+
+                            
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(33) Provably More Efficient Q-Learning in the Full-Feedback/One-Sided-Feedback Settings</strong>
+                                <br><em>Xiao-Yue Gong, David Simchi-Levi</em><br> 
+                                <a href="https://arxiv.org/abs/2007.00080">[arXiv]</a>
+                            </li>
+
+
+                            
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(39) Sample-Efficient Reinforcement Learning of Undercomplete POMDPs </strong>
+                                <br><em>Chi Jin, Sham M. Kakade, Akshay Krishnamurthy, Qinghua Liu</em><br> 
+                                <a href="https://arxiv.org/abs/2006.12484">[arXiv]</a>
+                                <a href="https://www.youtube.com/watch?v=clwdtWnwedE&feature=youtu.be">[video]</a>
+                            </li>
+
+
+                            
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(44) Bandit Linear Control</strong>
+                                <br><em>Asaf Benjamin Cassel, Tomer Koren</em><br> 
+                                <a href="https://arxiv.org/abs/2007.00759">[arXiv]</a>
+                            </li>
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(45) Robust Reinforcement Learning via Adversarial training with Langevin Dynamics</strong>
+                                <br><em>Parameswaran Kamalaruban, Yu-Ting Huang, Ya-Ping Hsieh, Paul Rolland, Cheng Shi, Volkan Cevher</em><br> 
+                                <a href="https://arxiv.org/abs/2002.06063">[arXiv]</a>
+                            </li>
+
+                            
+
+                            
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(51) The Mean-Squared Error of Double Q-Learning</strong>
+                                <br><em>Wentao Weng, Harsh Gupta, Niao He, Lei Ying, R. Srikant</em><br> 
+                            </li>
+
+                            
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(53) Confounding-Robust Policy Evaluation in Infinite-Horizon Reinforcement Learning</strong>
+                                <br><em>Nathan Kallus, Angela Zhou</em><br> 
+                                <a href="https://arxiv.org/abs/2002.04518">[arXiv]</a>
+                            </li>
+
+                            
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(56) Minimax Model Learning</strong>
+                                <br><em>Cameron Voloshin, Nan Jiang, Yisong Yue</em><br> 
+                            </li>
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(57) Preference learning along multiple criteria: A game-theoretic perspective</strong>
+                                <br><em>Kush Bhatia, Ashwin Pananjady, Peter Bartlett, Anca Dragan, Martin Wainwright</em><br> 
+                            </li>
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(58) Provably Good Batch Reinforcement Learning Without Great Exploration</strong>
+                                <br><em>Yao Liu, Adith Swaminathan, Alekh Agarwal, Emma Brunskill</em><br> 
+                            </li>
+
+                            
+                        
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(68) Black-Box Control for Linear Dynamical Systems </strong>
+                                <br><em>Xinyi Chen, Elad Hazan</em><br> 
+                            </li>
+
+                            
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(71) Finite Sample Analysis of Two-Time-Scale Natural Actor-Critic Algorithm</strong>
+                                <br><em>Sajad Khodadadian, Thinh T. Doan, Siva Theja Maguluri, Justin Romberg</em><br> 
+                            </li>
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(72) Logarithmic Regret Bound in Partially Observable Linear Dynamical Systems</strong>
+                                <br><em>Sahin Lale, Kamyar Azizzadenesheli, Babak Hassibi, Anima Anandkumar</em><br> 
+                                <a href="https://arxiv.org/abs/2003.11227">[arXiv]</a>
+                            </li>
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(73) Is Temporal Difference Learning Optimal? An Instance-Dependent Analysis</strong>
+                                <br><em>Koulik Khamaru, Ashwin Pananjady, Feng Ruan, Martin J. Wainwright, Michael Jordan</em><br> 
+                            </li>
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(75) Smoothness-Adaptive Contextual Bandits</strong>
+                                <br><em>Yonatan Gur, Ahmadreza Momeni, Stefan Wager</em><br> 
+                                <a href="https://arxiv.org/abs/1910.09714">[arXiv]</a>
+                            </li>
+
+                            
+
+                            
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(84) Geometric Exploration for Online Control</strong>
+                                <br><em>Orestis Plevrakis, Elad Hazan</em><br> 
+                                 <a href="https://youtu.be/SYo4mhjcOdg">[video]</a> 
+                            </li>
+
+                            
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(86) Conservative Q-Learning for Offline Reinforcement Learning</strong>
+                                <br><em>Aviral Kumar, Aurick Zhou, George Tucker, Sergey Levine</em><br>
+                                <a href="https://arxiv.org/abs/2006.04779">[ArXiv]</a>
+                            </li>
+
+                            
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(89) Efficient MDP Analysis for Selfish-Mining in Blockchain</strong>
+                                <br><em>Ittay Eyal, Aviv Tamar</em><br> 
+                            </li>
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(95) Adaptive Regret for Online Control</strong>
+                                <br><em>Paula Gradu, Elad Hazan, Edgar Minasyan</em><br> 
+                            </li>
+
+                            
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(97) Generalized Chernoff Sampling: A New Perspective on Structured Bandit Algorithms </strong>
+                                <br><em>Subhojyoti Mukherjee, Ardhendu Tripathy, Robert D Nowak</em><br> 
+                                <a href="https://youtu.be/HB9ScB-fMqY">[video]</a>
+                            </li>
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(100) Towards Minimax Optimal Reinforcement Learning in Factored Markov Decision Processes</strong>
+                                <br><em>Yi Tian, Jian Qian, Suvrit Sra</em><br> 
+                                <a href="https://arxiv.org/abs/2006.13405">[arXiv]</a>
+                            </li>
+
+                            <li style = "margin-top:1px;margin-bottom:1px"> <strong>(102) Model Selection for Finite and Continuous-Armed Stochastic Contextual Bandits</strong>
+                                <br><em>Avishek Ghosh, Abishek Sankararaman, Kannan Ramchandran</em><br> 
+                                <a href="https://arxiv.org/abs/2006.02612">[arXiv]</a>
+
+                            </li>
+     
+        
+            <div class="row centered">
+                <ul>
+            </ul>
+            </div>
+            
+      
+
+        </div>
+    </section>
+
+
+
+
+    <!-- call for papers -->
+    <!--section id="call" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Call for Papers</h2-->
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                <!--/div>
+            </div>
+            <div class="row text-justify">
+                <div class="col-md-12">
+                    <p class="large text-muted">
+                    Papers submitted to the workshop should be up to five pages long excluding references and appendix, and in ICML 2019 format.  As the review process is not blind, authors can reveal their identity in their submissions. All inquiries may be sent to 
+                    <a href="mailto:RealWorldSDM@gmail.com?Subject=RealWorldSDMWorkshop" target="_top">RealWorldSDM@gmail.com</a>
+.                   </p>
+
+                    <p class="large text-muted"-->
+                    <!--   Submissions website: TBA. -->
+                      <!--Submissions page: <a href="https://cmt3.research.microsoft.com/RWSDM2019">Real-world Sequential Decision Making Workshop 2019</a>.
+                    </p> 
+                   
+                    
+                  <p class="large text-muted"-->
+                      <!--<b>Note on <i>possible topics</i> of submissions:</b> --> <!--We invite researchers to submit both theoretical and applied work along several possible dimensions:
+                      </p>
+
+                      <ul>
+                    
+                      <li style = "margin-top:2px;margin-bottom:2px"> <p class="large text-muted"> Application papers: applications of learning-based techniques to real-life sequential decision making (robotics, healthcare, education, transportation & energy, smart-grids, sustainability, NLP, social media & advertising, agriculture, manufacturing, economics and policy) </p> </li>
+                      
+                    
+                    
+                     <li style = "margin-top:2px;margin-bottom:2px"> <p class="large text-muted"> Method papers that address real-world desiderata and concerns: safety, reliable decision making, theoretical guarantees, verifiability & interpretability, data-efficiency, data-heterogeneity, efficient exploration, counterfactual reasoning and off-policy evaluation, cost function design, efficient implementations to large-scale systems</p></li>
+                     
+                    
+                    
+                    <li style = "margin-top:2px;margin-bottom:2px"> <p class="large text-muted">Cross-boundary papers along the theme of RL+X  where X indicate areas not commonly viewed as RL in contemporary research. We would like to encourage researchers to explore the interface between traditional RL with:</p> 
+                        <ul>
+                          <li style = "margin-top:1px;margin-bottom:1px"> <p class="large text-muted">Other related areas in machine learning including but not limited to: imitation learning, transfer learning, active learning, structured prediction, off-policy learning, fairness in ML, privacy</p> </li>
+                          <li style = "margin-top:1px;margin-bottom:1px"><p class="large text-muted">Areas outside of machine learning including but not limited to: control theory & dynamical systems, formal methods, causal inference, game-theory, operations research, systems research, human-computer interactions, human behavior modeling</p> </li>
+                        </ul>
+                      </li>
+                    
+ 
+                    </ul>
+                  
+  
+               </div>
+            </div>
+
+        </div>
+</section-->
+
+
+
+       <!-- Programe Committee Section -->
+       <section id="Program Committee" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Program Committee</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+
+                            <ul style="list-style: none; float:left; width: 50%"> 
+                                <li> Dhaval Adjodah (MIT)</li>
+                                <li> Alon Cohen (Google Research)</li>
+                                <li> Sarah Dean (UC Berkeley)</li>
+                                <li> Yaqi Duan (Princeton University)</li>
+                                <li> Chris Dann (Google Research)</li>
+                                <li> Dylan Foster (MIT)</li>
+                                <li> Botao Hao (Purdue University)</li>
+                                <li> Chi Jin (Princeton University)</li>
+                                <li> Alec Koppel (U.S. Army Research Laboratory) </li>
+                                <li> Tor Lattimore (Deepmind)</li>
+                                <li> Christina Lee Yu (Cornell University)</li>
+                                <li> Bo Liu (Auburn)</li>
+                                <li> Horia Mania (UC Berkeley)</li>
+                                <li> Aditya Modi (U of Michigan at Ann Arbor)</li>
+                                <li> Tong Mu (Stanford University)</li>
+                                <li> Vidya Muthukumar (UC Berkeley) </li> 
+                                <li> Sobhan Miryoosefi (Princeton) </li>
+                            </ul>
+                            <ul style="list-style: none; float:right; width: 50%">
+                                <li> Aldo Pacchiano (UC Berkeley)</li>
+                                <li> Ciara Pike-Burke (Universitat Pompeu Fabra) </li>
+                                <li> Tim G. J. Rudner (University of Oxford) </li>
+                                <li> Tuhin Sarkar (MIT)</li>
+                                <li> Karan Singh (Princeton University)</li>
+                                <li> Adith Swaminathan (Microsoft Research Redmond)</li>
+                                <li> Yi Su (Cornell University)</li>
+                                <li> Masatoshi Uehara (Harvard University)</li>
+                                <li> Ruosong Wang (CMU)</li>
+                                <li> Qiaomin Xie (Cornell University)</li>
+                                <li> Tengyang Xie (UIUC) </li>
+                                <li> Renyuan Xu (Oxford University)</li>
+                                <li> Lin Yang (UCLA)</li>
+                                <li> Zhuoran Yang (Princeton University)</li>
+                                <li> Tiancheng Yu (MIT)</li>
+                                <li> Andrea Zanette (Stanford University)</li>
+                                <li> Angela Zhou (Cornell University)</li>
+                                <li> Zhengyuan Zhou (NYU)</li>
+                            </ul>
+                </div>
+            </div>
+<!--             <div class="row text-justify">
+                <div class="col-md-12">
+                    <p class="large text-muted">
+                        Chi Jin, &nbsp Andrea Zanette, &nbsp Tong Mu,&nbsp Zhuoran Yang,&nbsp Sarah Dean,&nbsp Lin Yang,&nbsp Adith Swaminathan,&nbsp Tiancheng Yu,&nbsp Bo Liu,&nbsp Zhengyuan Zhou,&nbsp Ciara Pike-Burke &nbsp
+                      <ul class = "abslist text-left">
+                      </ul>                   
+                    </p> 
+               </div>
+            </div> -->
+          </div>
+        </div>
+    </section>
+    <!-- Dates Section -->
+    <section id="dates">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Important Dates</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 text-left">
+                &nbsp;
+              </div>
+            <div class="col-lg-6 text-left">
+                <div class="col-md-12">
+                      <p class="large text-muted">
+                          <b>Paper Submission Deadline:</b> June 13, 2020, 11:59 PM UTC (<a href='https://openreview.net/group?id=ICML.cc/2020/Workshop/Theoretical_Foundations_of_RL'>[OpenReview]</a>)
+                      </p>
+                      <p class="large text-muted">
+                          <b>Author Notification:</b> July 3, 2020, 11:59 PM PDT
+                      </p>
+                      <p class="large text-muted">
+                        <b>Final Version:</b> July 10, 2020, 11:59 PM PDT 
+                      </p>
+                      <p class="large text-muted">
+                      <b>Workshop:</b> July 17, 2020 (Time: TBD)
+                      </p>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+  <!-- Organization Section -->
+    <section id="organization" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Workshop Organizers &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+
+            <div class="row row-centered ">
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="img/emma.jpg" class="img-responsive img-circle" alt="">
+                        <a href="https://cs.stanford.edu/people/ebrun/"> <h4>Emma Brunskill</h4> </a>
+                        <p class="text-muted">Stanford University</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="img/thodoris.jpg" class="img-responsive img-circle" alt="">
+                        <a href="https://teddlyk.github.io"><h4>Thodoris Lykouris</h4></a>
+                        <p class="text-muted"> Microsoft Research NYC</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="img/max.jpg" class="img-responsive img-circle" alt="">
+                        <a href="https://people.eecs.berkeley.edu/~msimchow/"><h4>Max  Simchowitz</h4></a>
+                        <p class="text-muted"> UC Berkeley</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="img/wensun.jpg" class="img-responsive img-circle" alt="">
+                        <a href="https://wensun.github.io"><h4>Wen Sun</h4></a>
+                        <p class="text-muted"> Cornell University / Microsoft Research NYC</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="img/wang.jpg" class="img-responsive img-circle" alt="">
+                        <a href="https://mwang.princeton.edu"><h4>Mengdi Wang</h4></a>
+                        <p class="text-muted">Princeton University</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+<!--     <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Sponsor</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <img src="img/ubereng_new_mailchimp_header.jpg" class="img-rounded" alt=""> 
+
+                </div>
+                <div class="col-lg-4">
+                     <br> <br /> 
+                    <a href="https://www.uber.com/"><h4>Uber Engineering</h4>  </a>
+                    <h5 class="text-muted">Transportation as reliable as running water, everywhere for everyone.</h5>
+                </div>
+                    <p class="help-block text-danger"></p>           
+                </div>
+        </div>
+    </section> -->
+
+
+    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td>
+            <br>
+            <p align="right">
+              <font size="2">
+                We thank <a href="http://hoangle.info">Hoang M. Le</a> from providing the website template.
+                </font>
+            </p>
+          </td>
+        </tr>
+      </table>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+</body>
+
+</html>
