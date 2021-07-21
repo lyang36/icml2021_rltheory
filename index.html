@@ -132,12 +132,12 @@ div.bibtex pre { font-size: 75%; text-align: left; overflow: auto;  width: 100%;
                     <li>
                         <a class="page-scroll" href="#keynote">Keynote Speakers</a>
                     </li>
-                    <!-- <li> -->
-                        <!-- <a class="page-scroll" href="#papers">Contributed Papers</a> -->
-                    <!-- </li> -->
                     <li>
-                        <a class="page-scroll" href="#call">Call</a>
+                        <a class="page-scroll" href="#papers">Contributed Papers</a>
                     </li>
+<!--                     <li>
+                        <a class="page-scroll" href="#call">Call</a>
+                    </li> -->
                     <li>
                         <a class="page-scroll" href="#Program Committee">Program Committee</a>
                     </li>
@@ -212,22 +212,35 @@ This workshop will feature seven keynote speakers from computer science, operati
                       <!-- 6:30 am - 4:45 pm PDT <br>
                       June 17, 2020<br> -->
                 <tr>
-                     <td>UTC 16:00 - 16:50 </td>
-                     <td> <strong>Invited Talks 1 & 2 </strong>
-                      <!-- </strong> - Sham Kakade <em>(Invited Talk)</em>  -->
+                     <td>UTC 16:00 - 16:25 </td>
+                     <td> <strong>Emily Kaufmann <em>(Invited Talk) </em></strong>
+                       </td>
+                </tr>
+                <br>
+                <tr>
+                                        <td>UTC 16:25 - 16:50 </td>
+                     <td> <strong>Christian Kroer <em>(Invited Talk) </em></strong>
                        </td>
                  </tr>
                  <br>
                  <tr>
                      <td>UTC 17:00 - 17:50</td>
-                     <td> <strong>Contributed Talks  </strong>
+                     <td> <strong>Short Contributed Talks:  </strong>
+                        <br>Sparsity in the Partially Controllable LQR
+                        <br> On the Theory of Reinforcement Learning with Once-per-Episode Feedback  
+                        <br> Implicit Finite-Horizon Approximation for Stochastic Shortest Path 
+                        <br> Provable Benefits of Actor-Critic Methods for Offline Reinforcement Learning
                  </tr>
                  <br>
                  <tr>
-                     <td>UTC 18:00 - 18:50 </td>
-                     <td><strong>Invited Talks 3 & 4</strong></em>  
+                    <td>UTC 18:00 - 18:25 </td>
+                     <td> <strong>Animashree Anandkumar <em>(Invited Talk) </em></strong>
                        </td>
                  </tr>
+                 <br>
+                 <td>UTC 18:25 - 18:50 </td>
+                     <td> <strong>Shie Mannor <em>(Invited Talk) </em></strong>
+                       </td>
                  <br>
                    <tr>
                      <td> UTC 19:00 - 19:30 </td>
@@ -242,19 +255,29 @@ This workshop will feature seven keynote speakers from computer science, operati
                  </tr>
                  <br>
                    <tr>
-                     <td>UTC 21:00 - 21:50 </td>
-                     <td><strong>Invited Talks 5 & 6</strong> 
+                     <td>UTC 21:00 - 21:25 </td>
+                     <td><strong>Bo Dai <em>(Invited Talk)</em></strong> 
+                       </td>
+                 </tr>
+                 <br>
+                   <tr>
+                     <td>UTC 21:25 - 21:50 </td>
+                     <td><strong>Qiaomin Xie <em>(Invited Talk)</em></strong> 
                        </td>
                  </tr>
                  <br>
                  <tr>
                      <td>UTC 22:00 - 22:50 </td>
-                     <td><strong>Contributed Talks</strong></em>  
+                     <td><strong>Short Contributed Talks:</strong></em>  
+                        <br> Bad-Policy Density: A Measure of Reinforcement-Learning Hardness  
+                        <br> Sample-Efficient Learning of Stackelberg Equilibria in General-Sum Games 
+                        <br> Solving Multi-Arm Bandit Using a Few Bits of Communication
+                        <br> CRPO: A New Approach for Safe Reinforcement Learning with Convergence Guarantee
                        </td>
                  </tr><br>
                    <tr>
                      <td>UTC 23:00 - 23:25 </td>
-                     <td><strong>Invited Talk 7</strong> 
+                     <td><strong>Art Owen <em>(Invited Talk)</em></strong> 
                        </td>
                  </tr><br>
                    <tr>
@@ -365,18 +388,457 @@ This workshop will feature seven keynote speakers from computer science, operati
 
 
     <!-- Papers -->
-<!--     <section id="papers"  class="bg-mid-gray">
+    <section id="papers"  class="bg-mid-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Call for Papers</h2>
+                    <h2 class="section-heading">Papers</h2>
                 </div>
             </div>
 
             <div class="row text-justify">
                 <div class="col-md-12">
+                    <p class="large text-muted">
+                         <ul class = "abslist text-left">
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Bad-Policy Density: A Measure of Reinforcement-Learning Hardness </strong>
+                                    <br><em>David Abel (DeepMind); Cameron S Allen (Brown University); Dilip Arumugam (Stanford University); D Ellis Hershkowitz (Carnegie Mellon University); Michael L. Littman (Brown University); Lawson L.S. Wong (Northeastern University)</em><br> 
+                                    <a href="camera_ready/2.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>BFinding the Near Optimal Policy via Reductive Regularization in MDPs </strong>
+                                    <br><em>Wenhao Yang (Peking University); Xiang Li (Peking University); Guangzeng Xie (Peking University); Zhihua Zhang (Peking University)</em><br> 
+                                    <a href="camera_ready/3.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Finite Sample Analysis of Average-Reward TD Learning and $Q$-Learning </strong>
+                                    <br><em>Sheng Zhang (Georgia Institute of Technology); Zhe Zhang (Georgia Institute of Technology); Siva Theja Maguluri (Georgia Tech)</em><br> 
+                                    <a href="camera_ready/4.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks</strong>
+                                    <br><em>Thanh Nguyen-Tang (Deakin University); Sunil Gupta (Deakin University, Australia); Hung Tran-The (Deakin University); Svetha Venkatesh (Deakin University)</em><br> 
+                                    <a href="camera_ready/5.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Triple-Q: A Model-Free Algorithm for Constrained Reinforcement Learning with Sublinear Regret and Zero Constraint Violation</strong>
+                                    <br><em>Honghao Wei (University of Michigan); Xin Liu (University of Michigan); Lei Ying (University of Michigan)</em><br> 
+                                    <a href="camera_ready/6.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Subgaussian Importance Sampling for Off-Policy Evaluation and Learning</strong>
+                                    <br><em>Alberto Maria Metelli (Politecnico di Milano); Alessio Russo (Politecnico di Milano); Marcello Restelli (Politecnico di Milano) </em><br> 
+                                    <a href="camera_ready/7.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Minimax Regret for Stochastic Shortest Path </strong>
+                                    <br><em>Alon Cohen (Technion and Google Inc.); Yonathan Efroni (Microsoft Research); Yishay Mansour (Tel Aviv University and Google Research); Aviv Rosenberg (Tel Aviv University)</em><br> 
+                                    <a href="camera_ready/8.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Collision Resolution in Multi-player Bandits Without Observing Collision Information </strong>
+                                    <br><em>Eleni Nisioti (Inria); Nikolaos Thomos (U of Essex); Boris Bellalta (Pompeu Fabra University); Anders Jonsson (UPF) </em><br> 
+                                    <a href="camera_ready/9.pdf">[Paper]</a>           
+                                </li>
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Marginalized Operators for Off-Policy Reinforcement Learning </strong>
+                                    <br><em>Yunhao Tang (Columbia University); Mark Rowland (DeepMind); Remi Munos (DeepMind); Michal Valko (DeepMind)</em><br> 
+                                    <a href="camera_ready/10.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Nonstationary Reinforcement Learning with Linear Function Approximation </strong>
+                                    <br><em>Huozhi Zhou (UIUC); Jinglin Chen (University of Illinois at Urbana-Champaign); Lav Varshney (UIUC: ECE); Ashish Jagmohan (IBM Research)</em><br> 
+                                    <a href="camera_ready/12.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> CRPO: A New Approach for Safe Reinforcement Learning with Convergence Guarantee</strong>
+                                    <br><em>Tengyu Xu (The Ohio State University); Yingbin Liang (The Ohio State University); Guanghui Lan (Georgia Tech)</em><br> 
+                                    <a href="camera_ready/13.pdf">[Paper]</a>
+                            
+                                </li>
 
-     
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Sparsity in the Partially Controllable LQR</strong>
+                                    <br><em>Yonathan Efroni (Microsoft Research); Sham Kakade (University of Washington); Akshay Krishnamurthy (Microsoft); Cyril Zhang (Microsoft Research)</em><br> 
+                                    <a href="camera_ready/14.pdf">[Paper]</a>           
+                                </li>
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Finite-Sample Analysis of Off-Policy TD-Learning via Generalized Bellman Operators </strong>
+                                    <br><em>Zaiwei Chen (Georgia Institute of Technology); Siva Theja Maguluri (Georgia Tech); Sanjay Shakkottai (University of Texas at Austin); Karthikeyan Shanmugam (IBM Research NY)</em><br> 
+                                    <a href="camera_ready/15.pdf">[Paper]</a>
+                            
+
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Derivative-Free Policy Optimization for Linear Risk-Sensitive and Robust Control Design: Implicit Regularization and Sample Complexity</strong>
+                                    <br><em>Kaiqing Zhang (University of Illinois at Urbana-Champaign (UIUC)/MIT); Xiangyuan Zhang (University of Illinois at Urbana-Champaign); Bin Hu (University of Illinois at Urbana-Champaign); Tamer Basar (University of Illinois at Urbana-Champaign) </em><br> 
+                                    <a href="camera_ready/16.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> When Is Generalizable Reinforcement Learning Tractable?</strong>
+                                    <br><em>Dhruv Malik (Carnegie Mellon University); Yuanzhi Li (CMU); Pradeep Ravikumar (Carnegie Mellon University)</em><br> 
+                                    <a href="camera_ready/17.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Finite-Sample Analysis of Off-Policy Natural Actor-Critic With Linear Function Approximation</strong>
+                                    <br><em>Zaiwei Chen (Georgia Institute of Technology); Sajad khodadadian (Georgia Tech); Siva Theja Maguluri (Georgia Tech) </em><br> 
+                                    <a href="camera_ready/19.pdf">[Paper]</a>           
+                                </li>
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>The Importance of Non-Markovianity in Maximum State Entropy Exploration</strong>
+                                    <br><em>Mirco Mutti (Politecnico di Milano, Università di Bologna); Riccardo De Santi (ETH Zurich ); Marcello Restelli (Politecnico di Milano) </em><br> 
+                                    <a href="camera_ready/20.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Global Convergence of Multi-Agent Policy Gradient in Markov Potential Games </strong>
+                                    <br><em>Stefanos Leonardos (Singapore University of Technology and Design); Will Overman (University of California, Irvine); Ioannis Panageas (UC Irvine); Georgios Piliouras (Singapore University of Technology and Design)</em><br> 
+                                    <a href="camera_ready/21.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Efficient Inverse Reinforcement Learning of Transferable Rewards</strong>
+                                    <br><em>Giorgia Ramponi (Politecnico di Milano); Alberto Maria Metelli (Politecnico di Milano); Marcello Restelli (Politecnico di Milano)</em><br> 
+                                    <a href="camera_ready/22.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Learning to Observe with Reinforcement Learning </strong>
+                                    <br><em>Mehmet Koseoglu (Hacettepe University); Ece Kunduracioglu (Hacetttepe University); Ayca Ozcelikkale (Uppsala University) </em><br> 
+                                    <a href="camera_ready/23.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Sample Efficient Reinforcement Learning In Continuous State Spaces: A Perspective Beyond Linearity </strong>
+                                    <br><em>Dhruv Malik (Carnegie Mellon University); Aldo Pacchiano (UC Berkeley); Vishwak Srinivasan (Carnegie Mellon University); Yuanzhi Li (CMU) </em><br> 
+                                    <a href="camera_ready/25.pdf">[Paper]</a>           
+                                </li>
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Bagged Critic for Continuous Control </strong>
+                                    <br><em>Payal Bawa (University of Sydney)</em><br> 
+                                    <a href="camera_ready/26.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Reinforcement Learning in Linear MDPs: Constant Regret and Representation Selection </strong>
+                                    <br><em>Matteo Papini (Politecnico di Milano); Andrea Tirinzoni (Inria); Aldo Pacchiano (UC Berkeley); Marcello Restelli (Politecnico di Milano); Alessandro Lazaric (FAIR); Matteo Pirotta (Facebook AI Research) </em><br> 
+                                    <a href="camera_ready/27.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> A Fully Problem-Dependent Regret Lower Bound for Finite-Horizon MDPs</strong>
+                                    <br><em>Andrea Tirinzoni (Inria); Matteo Pirotta (Facebook AI Research); Alessandro Lazaric (FAIR</em><br> 
+                                    <a href="camera_ready/28.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Optimal and instance-dependent oracle inequalities for policy evaluation </strong>
+                                    <br><em>Wenlong Mou (UC Berkeley); Ashwin Pananjady (Georgia Institute of Technology); Martin Wainwright (UC Berkeley) </em><br> 
+                                    <a href="camera_ready/29.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Optimistic Exploration with Backward Bootstrapped Bonus for Deep Reinforcement Learning </strong>
+                                    <br><em>Chenjia Bai (Harbin Institute of Technology); Lingxiao Wang (Northwestern University); Lei Han (Tencent AI Lab); Jianye Hao (Tianjin University); Animesh Garg (University of Toronto, Vector Institute, Nvidia); Peng Liu (Harbin Institute of Technology); Zhaoran Wang (Northwestern U)</em><br> 
+                                    <a href="camera_ready/30.pdf">[Paper]</a>           
+                                </li>
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Provable Benefits of Actor-Critic Methods for Offline Reinforcement Learning </strong>
+                                    <br><em>Andrea Zanette (Stanford University); Martin Wainwright (UC Berkeley); Emma Brunskill (Stanford University)</em><br> 
+                                    <a href="camera_ready/31.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Reward-Weighted Regression Converges to a Global Optimum </strong>
+                                    <br><em>Miroslav Strupl (IDSIA); Francesco Faccio (The Swiss AI Lab IDSIA); Dylan Ashley (IDSIA); Rupesh Kumar Srivastava (NNAISENSE); Jürgen Schmidhuber (IDSIA - Lugano)</em><br> 
+                                    <a href="camera_ready/32.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Solving Multi-Arm Bandit Using a Few Bits of Communication </strong>
+                                    <br><em>Osama A Hanna (UCLA); Lin Yang (UCLA); Christina Fragouli ()</em><br> 
+                                    <a href="camera_ready/33.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Comparison and Unification of Three Regularization Methods in Batch Reinforcement Learning</strong>
+                                    <br><em>Sarah Rathnam (Harvard University); Susan Murphy (Harvard University); Finale Doshi-Velez (Harvard)</em><br> 
+                                    <a href="camera_ready/34.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Oracle-Efficient Regret Minimization in Factored MDPs with Unknown Structure</strong>
+                                    <br><em>Aviv Rosenberg (Tel Aviv University); Yishay Mansour (Tel Aviv University and Google Research) </em><br> 
+                                    <a href="camera_ready/35.pdf">[Paper]</a>           
+                                </li>
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Learning Adversarial Markov Decision Processes with Delayed Feedback </strong>
+                                    <br><em>Tal Lancewicki (Tel-Aviv University); Aviv Rosenberg (Tel Aviv University); Yishay Mansour (Tel Aviv University and Google Research)</em><br> 
+                                    <a href="camera_ready/36.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Why Generalization in RL is Difficult: Epistemic POMDPs and Implicit Partial Observability</strong>
+                                    <br><em>Dibya Ghosh (UC Berkeley); Jad Rahme (Princeton University); Aviral Kumar (UC Berkeley); Amy Zhang (McGill University); Ryan P Adams (Princeton University); Sergey Levine (UC Berkeley)</em><br> 
+                                    <a href="camera_ready/37.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Statistical Inference with M-Estimators on Adaptively Collected Data </strong>
+                                    <br><em>Kelly W Zhang (Harvard University); Lucas Janson (Harvard University); Susan Murphy (Harvard University)</em><br> 
+                                    <a href="camera_ready/38.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Randomized Least Squares Policy Optimization </strong>
+                                    <br><em>Haque Ishfaq (Mila, McGill University); Zhuoran Yang (Princeton.edu); Andrei Lupu (Mila, McGill University); Viet Nguyen (Mila, McGill University); Lewis Liu (Mila & DIRO); Riashat Islam (MILA, Mcgill University); Zhaoran Wang (Northwestern); Doina Precup (McGill University)</em><br> 
+                                    <a href="camera_ready/39.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Gap-Dependent Unsupervised Exploration for Reinforcement Learning</strong>
+                                    <br><em>Jingfeng Wu (Johns Hopkins University); Vladimir Braverman (Johns Hopkins University); Lin Yang (UCLA)</em><br> 
+                                    <a href="camera_ready/40.pdf">[Paper]</a>           
+                                </li>
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Online Learning for Stochastic Shortest Path Model via Posterior Sampling</strong>
+                                    <br><em>Mehdi Jafarnia Jahromi (University of Southern California); Liyu Chen (USC); Rahul Jain (University of Southern California); Haipeng Luo (USC)</em><br> 
+                                    <a href="camera_ready/41.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Provable Model-based Nonlinear Bandit and Reinforcement Learning: Shelve Optimism, Embrace Virtual Curvature </strong>
+                                    <br><em>Kefan Dong (Stanford University); Jiaqi Yang (Tsinghua University); Tengyu Ma (Stanford University)</em><br> 
+                                    <a href="camera_ready/42.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Linear Convergence of Entropy-Regularized Natural Policy Gradient with Linear Function Approximation </strong>
+                                    <br><em>Semih Cayci (University of Illinois at Urbana-Champaign); Niao He (ETH Zurich); R Srikant (UIUC) </em><br> 
+                                    <a href="camera_ready/43.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Decentralized Q-Learning in Zero-sum Markov Games </strong>
+                                    <br><em>Muhammed Sayin (MIT); Kaiqing Zhang (University of Illinois at Urbana-Champaign (UIUC)/MIT); David S Leslie (Lancaster University); Tamer Basar (University of Illinois at Urbana-Champaign); Asuman Ozdaglar (MIT)</em><br> 
+                                    <a href="camera_ready/44.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Implicit Finite-Horizon Approximation for Stochastic Shortest Path</strong>
+                                    <br><em>Liyu Chen (USC); Mehdi Jafarnia Jahromi (University of Southern California); Rahul Jain (University of Southern California); Haipeng Luo (USC)</em><br> 
+                                    <a href="camera_ready/45.pdf">[Paper]</a>           
+                                </li>
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>On the Theory of Reinforcement Learning with Once-per-Episode Feedback </strong>
+                                    <br><em>Niladri S Chatterji (UC Berkeley); Aldo Pacchiano (UC Berkeley); Peter Bartlett (); Michael Jordan (UC Berkeley)</em><br> 
+                                    <a href="camera_ready/46.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Model-based Offline Reinforcement Learning with Local Misspecification</strong>
+                                    <br><em>Kefan Dong (Stanford University); Ramtin Keramati (Stanford University); Emma Brunskill (Stanford University)</em><br> 
+                                    <a href="camera_ready/47.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Nearly Minimax Optimal Regret for Learning Infinite-horizon Average-reward MDPs with Linear Function Approximation</strong>
+                                    <br><em>Yue Wu (University of California, Los Angeles); Dongruo Zhou (UCLA); Quanquan Gu (University of California, Los Angeles)</em><br> 
+                                    <a href="camera_ready/48.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Learning from an Exploring Demonstrator: Optimal Reward Estimation for Bandits</strong>
+                                    <br><em>Wenshuo Guo (UC Berkeley); Kumar Krishna Agrawal (UC Berkeley); Aditya Grover (Facebook AI Research); Vidya Muthukumar (UC Berkeley); Ashwin Pananjady (UC Berkeley)</em><br> 
+                                    <a href="camera_ready/49.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Model-Free Approach to Evaluate Reinforcement Learning Algorithms </strong>
+                                    <br><em>Denis Belomestny (Universitaet Duisburg-Essen); Ilya Levin (National Research University "Higher School of Economics"); Eric Moulines (Ecole Polytechnique); Alexey Naumov (National Research University Higher School of Economics); Sergey Samsonov (National Research University Higher School of Economics); Veronika Zorina (National Research University Higher School of Economics)</em><br> 
+                                    <a href="camera_ready/50.pdf">[Paper]</a>           
+                                </li>
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Provable RL with Exogenous Distractors via Multistep Inverse Dynamics </strong>
+                                    <br><em>Yonathan Efroni (Microsoft Research); Dipendra Misra (Microsoft); Akshay Krishnamurthy (Microsoft); Alekh Agarwal (Microsoft); John Langford (Microsoft)</em><br> 
+                                    <a href="camera_ready/51.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Learning Pareto-Optimal Policies in Low-Rank Cooperative Markov Games </strong>
+                                    <br><em>Abhimanyu Dubey (Massachusetts Institute of Technology); Alex `Sandy' Pentland (MIT)</em><br> 
+                                    <a href="camera_ready/52.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Optimal Uniform OPE and Model-based Offline Reinforcement Learning in Time-Homogeneous, Reward-Free and Task-Agnostic Settings</strong>
+                                    <br><em>Ming Yin (UC Santa Barbara); Yu-Xiang Wang (UC Santa Barbara)</em><br> 
+                                    <a href="camera_ready/53.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Bridging The Gap between Local and Joint Differential Privacy in RL</strong>
+                                    <br><em>Evrard Garcelon (Facebook AI Research ); Vianney Perchet (ENS Paris-Saclay & Criteo AI Lab); Ciara Pike-Burke (Imperial College London); Matteo Pirotta (Facebook AI Research)</em><br> 
+                                    <a href="camera_ready/54.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Sample-Efficient Learning of Stackelberg Equilibria in General-Sum Games</strong>
+                                    <br><em>Yu Bai (Salesforce Research); Chi Jin (Princeton University); Huan Wang (Salesforce Research); Caiming Xiong (Salesforce Research)</em><br> 
+                                    <a href="camera_ready/55.pdf">[Paper]</a>           
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Near-Optimal Offline Reinforcement Learning via Double Variance Reduction </strong>
+                                    <br><em>Ming Yin (UC Santa Barbara); Yu Bai (Salesforce Research); Yu-Xiang Wang (UC Santa Barbara)</em><br> 
+                                    <a href="camera_ready/56.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Mixture of Step Returns in Bootstrapped DQN</strong>
+                                    <br><em>Po-Han Chiang (National Tsing Hua University); Hsuan-Kung Yang (National Tsing Hua University); Zhang-Wei Hong (Preferred Networks); Chun-Yi Lee (National Tsing Hua University)</em><br> 
+                                    <a href="camera_ready/57.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Nearly Optimal Regret for Learning Adversarial MDPs with Linear Function Approximation</strong>
+                                    <br><em>Jiafan He (UCLA); Dongruo Zhou (UCLA); Quanquan Gu (University of California, Los Angeles)</em><br> 
+                                    <a href="camera_ready/58.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Provably efficient exploration-free transfer RL for near-deterministic latent dynamics</strong>
+                                    <br><em>Yao Liu (Stanford University); Dipendra Misra (Microsoft); Miroslav Dudik (Microsoft); Robert Schapire (Microsoft)</em><br> 
+                                    <a href="camera_ready/59.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Stochastic Shortest Path: Minimax, Parameter-Free and Towards Horizon-Free Regret </strong>
+                                    <br><em>Jean Tarbouriech (FAIR & Inria); Runlong Zhou (Tsinghua University); Simon Du (University of Washington); Matteo Pirotta (Facebook AI Research); Michal Valko (DeepMind); Alessandro Lazaric (FAIR)</em><br> 
+                                    <a href="camera_ready/60.pdf">[Paper]</a>           
+                                </li>
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> A Spectral Approach to Off-Policy Evaluation for POMDPs</strong>
+                                    <br><em>Yash Nair (Harvard College); Nan Jiang (University of Illinois at Urbana-Champaign)</em><br> 
+                                    <a href="camera_ready/61.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Mind the Gap: Safely Bridging Offline and Online Reinforcement Learning </strong>
+                                    <br><em>Wanqiao Xu (University of Michigan); Kan Xu (University of Pennsylvania); Hamsa Bastani (Wharton); Osbert Bastani (University of Pennsylvania)</em><br> 
+                                    <a href="camera_ready/62.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Learning Nash Equilibria in Zero-Sum Stochastic Games via Entropy-Regularized Policy Approximation </strong>
+                                    <br><em>Yue Guan (Georgia Institute of Technology); Qifan Zhang (Georgia Institute of Technology); Panagiotis Tsiotras (Georgia Institute of Technology) </em><br> 
+                                    <a href="camera_ready/63.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Invariant Policy Learning: A Causal Perspective</strong>
+                                    <br><em>Sorawit Saengkyongam (University of Copenhagen); Nikolaj Thams (University of Copenhagen); Jonas Peters (University of Copenhagen); Niklas Pfister (University of Copenhagen)</em><br> 
+                                    <a href="camera_ready/64.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>A functional mirror ascent view of policy gradient methods with function approximation </strong>
+                                    <br><em>Sharan Vaswani (University of Alberta); Olivier Bachem (Google Brain); Simone Totaro (Mila); Robert Mueller (TU Munich); Matthieu Geist (Google Brain); Marlos C. Machado (Google Brain); Pablo Samuel Castro (Google); Nicolas Le Roux (Google) </em><br> 
+                                    <a href="camera_ready/65.pdf">[Paper]</a>           
+                                </li>
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Policy Finetuning: Bridging Sample-Efficient Offline and Online Reinforcement Learning</strong>
+                                    <br><em>Tengyang Xie (University of Illinois at Urbana-Champaign); Nan Jiang (University of Illinois at Urbana-Champaign); Huan Wang (Salesforce Research); Caiming Xiong (Salesforce Research); Yu Bai (Salesforce Research) </em><br> 
+                                    <a href="camera_ready/66.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Robust online control with model misspecification</strong>
+                                    <br><em>Xinyi Chen (Google); Udaya Ghai (Princeton University); Elad Hazan (Princeton University); Alexandre Megretsky (Massachusetts Institute of Technology) </em><br> 
+                                    <a href="camera_ready/67.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Online Sub-Sampling for Reinforcement Learning with General Function Approximation </strong>
+                                    <br><em>Dingwen Kong (Peking University); Ruslan Salakhutdinov (Carnegie Mellon University); Ruosong Wang (Carnegie Mellon University); Lin Yang (UCLA) </em><br> 
+                                    <a href="camera_ready/68.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Is Pessimism Provably Efficient for Offline RL? </strong>
+                                    <br><em>Ying Jin (Stanford University); Zhuoran Yang (Princeton.edu); Zhaoran Wang (Northwestern U)* </em><br> 
+                                    <a href="camera_ready/69.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Topological Experience Replay for Fast Q-Learning </strong>
+                                    <br><em>Zhang-Wei Hong (Massachusetts Institute of Technology); Tao Chen (MIT); Yen-Chen Lin (MIT); Joni Pajarinen (Aalto University); Pulkit Agrawal (MIT) </em><br> 
+                                    <a href="camera_ready/70.pdf">[Paper]</a>           
+                                </li>
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Nearly Minimax Optimal Reinforcement Learning for Discounted MDPs </strong>
+                                    <br><em>Jiafan He (UCLA); Dongruo Zhou (UCLA); Quanquan Gu (University of California, Los Angeles)</em><br> 
+                                    <a href="camera_ready/71.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> A general sample complexity analysis of vanilla policy gradient</strong>
+                                    <br><em>Rui YUAN (Facebook AI Research); Robert M Gower (Telecom Paris Tech); Alessandro Lazaric (FAIR) </em><br> 
+                                    <a href="camera_ready/72.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> The Power of Exploiter: Provable Multi-Agent RL in Large State Spaces</strong>
+                                    <br><em>Chi Jin (Princeton University); Qinghua Liu (Princeton University); Tiancheng Yu (MIT)</em><br> 
+                                    <a href="camera_ready/73.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Bellman Eluder Dimension: New Rich Classes of RL Problems, and Sample-Efficient Algorithms </strong>
+                                    <br><em>Chi Jin (Princeton University); Qinghua Liu (Princeton University); Sobhan Miryoosefi (Princeton University) </em><br> 
+                                    <a href="camera_ready/74.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Estimating Optimal Policy Value in Linear Contextual Bandits beyond Gaussianity </strong>
+                                    <br><em>Jonathan Lee (Stanford University); Weihao Kong (University of Washington); Aldo Pacchiano (UC Berkeley); Vidya K Muthukumar (Georgia Institute of Technology); Emma Brunskill (Stanford University)</em><br> 
+                                    <a href="camera_ready/75.pdf">[Paper]</a>           
+                                </li>
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> A Short Note on the Relationship of Information Gain and Eluder Dimension</strong>
+                                    <br><em>Kaixuan Huang (Princeton University); Sham Kakade (University of Washington); Jason Lee (Princeton); Qi Lei (Princeton University)</em><br> 
+                                    <a href="camera_ready/76.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Convergence and Optimality of Policy Gradient Methods in Weakly Smooth Settings </strong>
+                                    <br><em>Shunshi Zhang (University of Toronto, Vector Institute); Murat A Erdogdu (University of Toronto, Vector Institute); Animesh Garg (University of Toronto, Vector Institute, Nvidia)</em><br> 
+                                    <a href="camera_ready/77.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Almost Optimal Algorithms for Two-player Markov Games with Linear Function Approximation </strong>
+                                    <br><em>Zixiang Chen (UCLA); Dongruo Zhou (UCLA); Quanquan Gu (University of California, Los Angeles)</em><br> 
+                                    <a href="camera_ready/78.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Improved Estimator Selection for Off-Policy Evaluation </strong>
+                                    <br><em>George Tucker (Google Brain); Jonathan Lee (Stanford)</em><br> 
+                                    <a href="camera_ready/79.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>A Boosting Approach to Reinforcement Learning </strong>
+                                    <br><em>Nataly Brukhim (Princeton University); Elad Hazan (Princeton University); Karan Singh (Microsoft Research)</em><br> 
+                                    <a href="camera_ready/80.pdf">[Paper]</a>           
+                                </li>
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Learning Stackelberg Equilibria in Sequential Price Mechanisms </strong>
+                                    <br><em>Gianluca Brero (Harvard University); Darshan Chakrabarti (Harvard University); Alon Eden (Harvard University); Matthias Gerstgrasser (Harvard University); Vincent Li (Harvard University); David Parkes (Harvard University)</em><br> 
+                                    <a href="camera_ready/81.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Refined Policy Improvement Bounds for MDPs </strong>
+                                    <br><em>Jim Dai (Cornell University); Mark Gluzman (Cornell University)</em><br> 
+                                    <a href="camera_ready/82.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Meta Learning MDPs with linear transition models</strong>
+                                    <br><em>Robert Müller (Technical University of Munich); Aldo Pacchiano (UC Berkeley); Jack Parker-Holder (University of Oxford)</em><br> 
+                                    <a href="camera_ready/83.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> The best of both worlds: stochastic and adversarial episodic MDPs with unknown transition</strong>
+                                    <br><em>Tiancheng Jin (University of Southern California); Longbo Huang (IIIS, Tsinghua Univeristy); Haipeng Luo (USC)</em><br> 
+                                    <a href="camera_ready/84.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Identification and Adaptive Control of Markov Jump Systems: Sample Complexity and Regret Bounds</strong>
+                                    <br><em>Yahya Sattar (University of California Riverside); Zhe Du (University of Michigan); Davoud Ataee Tarzanagh (Michigan); Necmiye Ozay (University of Michigan); Laura Balzano (University of Michigan); Samet Oymak (University of California, Riverside)</em><br> 
+                                    <a href="camera_ready/85.pdf">[Paper]</a>           
+                                </li>
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Non-Stationary Representation Learning in Sequential Multi-Armed Bandits</strong>
+                                    <br><em>Qin Yuzhen (University of California, Riverside); Tommaso Menara (University of California Riverside); Samet Oymak (University of California, Riverside); ShiNung Ching (Washington University in St. Louis); Fabio Pasqualetti (University of California, Riverside)</em><br> 
+                                    <a href="camera_ready/86.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Value-Based Deep Reinforcement Learning Requires Explicit Regularization</strong>
+                                    <br><em>Aviral Kumar (UC Berkeley); Rishabh Agarwal (Google Research, Brain Team); Aaron Courville (University of Montreal); Tengyu Ma (Stanford); George Tucker (Google Brain); Sergey Levine (UC Berkeley)</em><br> 
+                                    <a href="camera_ready/87.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong>Policy Optimization in Adversarial MDPs: Improved Exploration via Dilated Bonuses</strong>
+                                    <br><em>Haipeng Luo (USC); Chen-Yu Wei (University of Southern California); Chung-Wei Lee (University of Southern California) </em><br> 
+                                    <a href="camera_ready/88.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> On the Sample Complexity of Average-reward MDPs</strong>
+                                    <br><em>Yujia Jin (Stanford University); Aaron Sidford (Stanford)</em><br> 
+                                    <a href="camera_ready/89.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Finite time analysis of temporal difference learning with linear function approximation: the tail averaged case</strong>
+                                    <br><em>Gandharv Patil (McGill University); Prashanth L.A. (IIT Madras); Doina Precup (McGill University)</em><br> 
+                                    <a href="camera_ready/90.pdf">[Paper]</a>           
+                                </li>
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Multi-Task Offline Reinforcement Learning with Conservative Data Sharing</strong>
+                                    <br><em>Tianhe Yu (Stanford University); Aviral Kumar (UC Berkeley); Yevgen Chebotar (Google); Karol Hausman (Google Brain); Sergey Levine (UC Berkeley); Chelsea Finn (Stanford)</em><br> 
+                                    <a href="camera_ready/91.pdf">[Paper]</a>
+                            
+                                </li>
+                                <li style = "margin-top:1px;margin-bottom:1px"> <strong> Provably Efficient Multi-Task Reinforcement Learning with Model Transfer</strong>
+                                    <br><em>Chicheng Zhang (University of Arizona); Zhi Wang (University of California, San Diego) </em><br> 
+                                    <a href="camera_ready/92.pdf">[Paper]</a>
+                            
         
             <div class="row centered">
                 <ul>
@@ -386,13 +848,13 @@ This workshop will feature seven keynote speakers from computer science, operati
       
 
         </div>
-    </section> -->
+    </section>
 
 
 
 
     <!-- call for papers -->
-    <section id="call" class="bg-mid-gray">
+<!--     <section id="call" class="bg-mid-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -429,7 +891,7 @@ This workshop will not have a conference proceedings, so we welcome the submissi
             </div>
 
         </div>
-</section>
+</section> -->
 
 
 
